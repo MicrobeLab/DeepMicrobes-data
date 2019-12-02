@@ -33,3 +33,6 @@ The codes of DeepMicrobes are available at https://github.com/MicrobeLab/DeepMic
 * `Table S13` Read level specificity and sensitivity of genus classification measured on the ten mock communities under different confidence scores
 * `Table S14` LEfSe analysis on the species profiles of 106 subjects from iHMP
 			
+## Labeled genome sequences used to create the training set
+* Genome collections for the species/genus model
+* Training labels are provided in the sequence IDs
