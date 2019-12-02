@@ -38,5 +38,5 @@ The codes of DeepMicrobes are available at https://github.com/MicrobeLab/DeepMic
 * Training labels are provided in the sequence IDs
 
 ## Vocabulary
-* The vocabulary of <i>k</i>-mers used in TFRecord conversion. The pre-trained DeepMicrobes models use 12-mers
+* The vocabulary of <i>k</i>-mers used in TFRecord conversion. The pre-trained DeepMicrobes models use 12-mers.
 * Complementary <i>k</i>-mers are represented as the same embedding vector. Such representation requires `merged` <i>k</i>-mers when converting fasta/fastq sequences to TFRecord.
