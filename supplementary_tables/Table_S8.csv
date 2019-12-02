@@ -1,0 +1,27 @@
+"Supplementary Table S8. The search space of hyperparameters and the hyperparameters chosen for each model (Not applicable hyperparameters are maked as ""-""; see https://github.com/MicrobeLab/DeepMicrobes for details of how the hyperparameters are adopted for each model and each layer) ",,,,,,,,
+Hyperparameters,Search space,ResNet-like CNN,CNN + LSTM,Seq2species1,Embed + Pool,Embed + CNN,Embed + LSTM,Embed + LSTM + Attention
+Number of CNN filters,"64, 128, 256, 320, 512, 1024","[64, 128, 256, 512]",1024,"[84, 58, 180]",-,128,-,-
+Size of CNN filters,"3, 4, 5, 6, 13, 26, 30, concatenate",3,30,"[5, 9, 13]",-,concatenate (3/4/5),-,-
+Number of residual block ,"1, 2, 3, 4",4,-,-,-,-,-,-
+LSTM dimension (in each direction),"256, 300, 320, 400, 512, 600, 640, 1024",-,1024,-,-,-,300,300
+Number of FC layers,"1, 2, 3",3,3,3,3,3,3,3
+Number of FC units,"150, 350, 512, 1024, 2048, 3000, 4000, 4096",2048,"[1024, 512]",2828,3000,3000,3000,3000
+Type of pooling,"Max, avg, concatenate, none",max,max,avg,concatenate (max/avg),max,none,-
+Window size of pooling,"2, 13, 15, length of input sequence (for embedding models)",2,15,-,input length,input length,-,-
+Pooling stride,"2, 13, 15",2,15,-,-,-,-,-
+Number of attention rows,"10, 20, 30, 40, 50",-,-,-,-,-,-,30
+Penalization coefficient,"0, 1e-5, 1e-4, 1e-3, 0.01, 0.1, 0.2, 0.5, 0.8, 1",-,-,-,-,-,-,0
+Batch size,"128, 256, 500, 512, 1024, 2048, 3000, 4000, 4096",2048,2048,2048,2048,2048,2048,2048
+Learning rate,"0.05, 0.01, 0.005, 0.001, 0.0005, 0.0001",0.001,0.001,4.70E-04,0.001,0.001,0.001,0.001
+Decay rate (for learning rate),"1e-3, 5e-3, 0.01, 0.05, 0.1, 0.5",0.05,0.05,6.55E-02,0.05,0.05,0.05,0.05
+Dropout (keep probability),"0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 0.99, 1.0",1.0,1.0,0.94018,1.0,1.0,1.0,1.0
+L2 regularization,"1e-5, 1e-4, 1e-3, 0.01, 0.1, none",none,none,none,none,none,none,none
+Activation function,"ReLu, Tanh, Leaky ReLu ",ReLu,"ReLU, Tanh",Leaky ReLu,ReLu,ReLu,ReLu,ReLu
+Optimizer,"Adam, Adagrad",Adam,Adam,Adam,Adam,Adam,Adam,Adam
+Encoding method,"One-hot, k-mer embedding",One-hot,One-hot,One-hot,k-mer embedding,k-mer embedding,k-mer embedding,k-mer embedding
+K-mer length,"7, 8, 9, 10, 11, 12",-,-,-,12,12,12,12
+K-mer redundancy,"4k, merged",-,-,-,merged,merged,merged,merged
+Embedding dimension,"50, 100, 200, 300",-,-,-,100,100,100,100
+Embedding stride,"1, 2, 3",-,-,-,1,1,1,1
+Embedding weights initialization,"Random, pre-trained GloVe vectors",-,-,-,Random,Random,Random,Random
+"1 The hyperparameters of Seq2species, except for batch size, were the same as the suggested values for the 100 bp model, which performed better than the values listed in the search space.",,,,,,,,

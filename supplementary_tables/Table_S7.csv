@@ -1,0 +1,7 @@
+Supplementary Table S7. The effect of k-mer length on vocabulary size,,
+Length of k-mers,# of all possible k-mers (4k),# of merged k-mers (vocabulary size)
+8,"65,536","32,896"
+9,"262,144","131,072"
+10,"1,048,576","524,800"
+11,"4,194,304","2,097,152"
+12,"16,777,216","8,390,656"

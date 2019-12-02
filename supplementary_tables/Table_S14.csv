@@ -1,0 +1,26 @@
+Supplementary Table S14. LEfSe analysis on the species profiles of 106 subjects from iHMP,,,,
+Species,log10(Max avg. abundance),Group,log10(LDA score),P value (Kruskal-Wallis rank-sum test)
+18048_1_69,3.66,Healthy,3.27,0.04
+UMGS740,3.31,Ulcerative colitis,3.04,0.02
+UMGS947,3.35,Crohn's disease,2.97,0.01
+UMGS786,3.23,Ulcerative colitis,2.94,0.01
+UMGS368,3.27,Healthy,2.82,0.02
+UMGS365,3.30,Healthy,2.80,0.03
+UMGS456,3.03,Healthy,2.68,0.02
+UMGS37,3.27,Ulcerative colitis,2.51,0.02
+UMGS1625,2.80,Crohn's disease,2.45,0.02
+UMGS41,2.93,Ulcerative colitis,2.44,0.01
+UMGS624,3.19,Crohn's disease,2.43,0.03
+GCF_000189615,2.79,Crohn's disease,2.36,0.02
+UMGS1587,2.72,Healthy,2.26,0.04
+GCF_000234155,2.59,Crohn's disease,2.25,0.04
+UMGS1031,0.00,Ulcerative colitis,2.17,0.03
+GCF_000411335,2.61,Crohn's disease,2.17,0.02
+UMGS1215,2.58,Ulcerative colitis,2.13,0.03
+UMGS871,2.95,Crohn's disease,2.12,0.03
+UMGS1621,2.56,Healthy,2.10,0.02
+UMGS713,2.84,Ulcerative colitis,2.10,0.05
+UMGS1117,0.00,Healthy,2.09,0.04
+UMGS710,2.77,Crohn's disease,2.08,0.02
+UMGS1898,2.92,Crohn's disease,2.07,0.04
+UMGS459,2.52,Healthy,2.03,0.01
