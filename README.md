@@ -1,5 +1,7 @@
 # DeepMicrobes-data
-Supporting data for the DeepMicrobes paper
+Supporting data for the DeepMicrobes paper (under preparation). <br>
+The codes of DeepMicrobes are available at https://github.com/MicrobeLab/DeepMicrobes
+
 
 ## Sequences of benchmark datasets
 * Reads simulated from 3,269 gut-derived MAGs
