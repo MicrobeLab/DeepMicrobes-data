@@ -40,3 +40,9 @@ The codes of DeepMicrobes are available at https://github.com/MicrobeLab/DeepMic
 ## Vocabulary
 * The vocabulary of <i>k</i>-mers used in TFRecord conversion. The pre-trained DeepMicrobes models use 12-mers.
 * Complementary <i>k</i>-mers are represented as the same embedding vector. Such representation requires `merged` <i>k</i>-mers when converting fasta/fastq sequences to TFRecord.
+
+## Custom Kaiju database
+* Pseudo taxonomy identifiers assigned to each species in the complete bacterial repertoire of the human gut microbiota
+* Custom `names.dmp` and `nodes.dmp` 
+* Predicted protein sequences from the genome of each species
+* Kaiju index of the custom database
