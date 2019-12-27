@@ -42,7 +42,5 @@ The codes of DeepMicrobes are available at https://github.com/MicrobeLab/DeepMic
 * Complementary <i>k</i>-mers are represented as the same embedding vector. Such representation requires `merged` <i>k</i>-mers when converting fasta/fastq sequences to TFRecord.
 
 ## Custom Kaiju database
-* Pseudo taxonomy identifiers assigned to each species in the complete bacterial repertoire of human gut
-* Custom `names.dmp` and `nodes.dmp` 
-* Predicted protein sequences from the genome of each species
-* Kaiju index of the custom database
+* Predicted protein sequences from the genomes of each species in the complete bacterial repertoire of human gut
+* Custom `names.dmp`, `nodes.dmp`, and Kaiju index 
