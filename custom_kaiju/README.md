@@ -10,4 +10,7 @@ These records were incorporated into custom [names.dmp](https://mail2sysueducn-m
 
 ## Kaiju index 
 Kaiju index for the custom database was built following the manual available [here](https://github.com/bioinformatics-centre/kaiju). <br>
-The resulted `fmi` index is available [here](https://mail2sysueducn-my.sharepoint.com/:u:/g/personal/liangqx7_mail2_sysu_edu_cn/EWRWpxMtNXFDotuBjY350WIB0PExJv40jlqzDPmX8c0mYA?e=CyNyug).
+The custom `fmi` index is available [here](https://mail2sysueducn-my.sharepoint.com/:u:/g/personal/liangqx7_mail2_sysu_edu_cn/EWRWpxMtNXFDotuBjY350WIB0PExJv40jlqzDPmX8c0mYA?e=CyNyug).
+
+## Classification results
+`kaiju-gut.genus.txt` files contain classification results (read count of each genus) for the ten mock communities.

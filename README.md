@@ -44,3 +44,8 @@ The codes of DeepMicrobes are available at https://github.com/MicrobeLab/DeepMic
 ## Custom Kaiju database
 * Predicted protein sequences from the genomes of each species in the complete bacterial repertoire of human gut
 * Custom `names.dmp`, `nodes.dmp`, and Kaiju index 
+* Benchmark results on this custom database
+
+## Scripts
+* Command lines used to run all the taxonomic classification tools benchmarked in the paper
+* R scripts used to generate figures 
