@@ -1,5 +1,5 @@
 # DeepMicrobes-data
-Supporting data for the DeepMicrobes paper (under preparation). <br>
+Supporting data for the [DeepMicrobes paper](https://doi.org/10.1093/nargab/lqaa009). <br>
 The codes of DeepMicrobes are available at https://github.com/MicrobeLab/DeepMicrobes
 
 
